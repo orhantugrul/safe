@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 /**
  * @author orhan tugrul
  */
-public class AccessTest {
+public class SafeAccessTest {
     @Test
     @DisplayName("Get should get other value when supplier is null")
     public void Get_Should_GetOtherValue_When_SupplierIsNull() {
