@@ -1,4 +1,5 @@
-import dev.orhantugrul.safe.SafeString;
+package dev.orhantugrul.safe;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
