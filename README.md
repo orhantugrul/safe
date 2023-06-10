@@ -1,4 +1,4 @@
-# safe - Efficient Reference Access Library
+# safe
 
 ⚠️ **Important Note: This library is currently under development and should not be used in
 production environments yet. Use it at your own risk.**
@@ -11,7 +11,7 @@ production environments yet. Use it at your own risk.**
 safe is a small Java library designed to provide a more efficient and concise way to access
 references. It offers a simple and expressive syntax to handle nullable or optional references in a
 more streamlined manner, reducing the need for boilerplate code and potential null pointer
-exceptions. <b>safe</b> is a small library to references more efficient way.
+exceptions.
 
 ## Features
 
@@ -28,12 +28,12 @@ import dev.orhantugrul.safe.Maybe.Just;
 import dev.orhantugrul.safe.Maybe.Nothing;
 
 class Main {
-    public static void main(String[] args) {
-        final var happyReference = switch (Ref.from(null)) {
-            case Just(var value) -> value;
-            case Nothing() -> throw new AssertionError("There is no value :/");
-        };
-    }
+  public static void main(final String[] args) {
+    final var happyReference = switch (Ref.from(null)) {
+      case Just(final var value) -> value;
+      case Nothing() -> throw new AssertionError("There is no value :/");
+    };
+  }
 }
 ```
 
