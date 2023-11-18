@@ -1,6 +1,6 @@
 # safe
 
-⚠️ **Important Note: This library is currently under development and should not be used in
+⚠️ **This library is currently under development and should not be used in
 production environments yet. Use it at your own risk.**
 
 [![Java Version](https://img.shields.io/badge/java-%3E%3D%2020%20(enabled--preview)-blue.svg)](https://www.java.com/)
